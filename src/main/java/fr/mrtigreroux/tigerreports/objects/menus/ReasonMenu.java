@@ -75,7 +75,7 @@ public class ReasonMenu extends Menu {
         if (slot >= 18 && slot <= size - 10) {
             ConfigSound.MENU.play(p);
             p.chat(
-                    "/tigerreports:report " + tu.getName() + " "
+                    "/report " + tu.getName() + " "
                             + ConfigFile.CONFIG.get()
                                     .getString(
                                             "Config.DefaultReasons.Reason"

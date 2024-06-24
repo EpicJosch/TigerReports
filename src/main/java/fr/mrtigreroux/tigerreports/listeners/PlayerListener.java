@@ -156,7 +156,7 @@ public class PlayerListener implements Listener {
                 button.setClickEvent(
                         new ClickEvent(
                                 ClickEvent.Action.RUN_COMMAND,
-                                "/tigerreports:reports update_data " + oldVersion
+                                "/reports update_data " + oldVersion
                         )
                 );
                 updateMessage.addExtra(button);
@@ -271,7 +271,7 @@ public class PlayerListener implements Listener {
                                     MessageUtils.translateColorCodes(
                                             config.getString(path + "ReportButton.Hover")
                                     ).replace("_Player_", playerName),
-                                    "/tigerreports:report " + playerName + " "
+                                    "/report " + playerName + " "
                                             + config.getString(path + "ReportButton.Reason")
                             );
             boolean isTextComponent = message instanceof TextComponent;

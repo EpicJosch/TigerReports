@@ -999,7 +999,7 @@ public class User {
                         "_ReportButton_",
                         reportButtonMsg,
                         alertDetailsMsg,
-                        "/tigerreports:reports #" + r.getId()
+                        "/reports #" + r.getId()
                 )
         );
     }
@@ -1015,7 +1015,7 @@ public class User {
                         Message.get(msgPath + ".Cancel-button.Text"),
                         Message.get(msgPath + ".Cancel-button.Hover")
                                 .replace("_Report_", reportName),
-                        "/tigerreports:reports canceledit"
+                        "/reports canceledit"
                 )
         );
     }
